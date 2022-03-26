@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Change the world</title>
+  
+  <subtitle>XinranLee</subtitle>
+  <link href="https://xinran-lee.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://xinran-lee.github.io/"/>
+  <updated>2022-03-26T06:41:43.327Z</updated>
+  <id>https://xinran-lee.github.io/</id>
+  
+  <author>
+    <name>XinranLee</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://xinran-lee.github.io/2022/03/03/hello-world/"/>
+    <id>https://xinran-lee.github.io/2022/03/03/hello-world/</id>
+    <published>2022-03-03T01:30:00.000Z</published>
+    <updated>2022-03-26T06:41:43.327Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;欢迎大家来到我的个人博客，以后也希望可以在这里交流分享在学习和生活中的故事。&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-copy&quot; data-language=&quot;copy&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="日常" scheme="https://xinran-lee.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="日常" scheme="https://xinran-lee.github.io/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="生活" scheme="https://xinran-lee.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/03/03/hello-world/"/>
+      <url>/2022/03/03/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎大家来到我的个人博客，以后也希望可以在这里交流分享在学习和生活中的故事。</p><pre class="line-numbers language-copy" data-language="copy"><code class="language-copy">#include &lt;stdio.h&gt;int main(){   printf("Hello, World!");   return 0;}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="个人介绍"><a href="#个人介绍" class="headerlink" title="个人介绍"></a>个人介绍</h2><h3 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h3><p><img src="https://xinran-lee.github.io/favicon.png"><br>我是一名普普通通的在校大学生，喜欢挖掘生活和学习中各种好玩的事情，也希望在这里遇见有趣的你。</p><h3 id="如何联系我"><a href="#如何联系我" class="headerlink" title="如何联系我"></a>如何联系我</h3><p>email:<a href="mailto:xinranlee8@gmail.com">xinranlee8@gmail.com</a><br>企鹅号：2786595598<br>call(同微信)：18031890954<br>CSDN：<a href="https://blog.csdn.net/qq_45765411?spm=1000.2115.3001.5343">https://blog.csdn.net/qq_45765411?spm=1000.2115.3001.5343</a><br>github: <a href="https://github.com/xinran-lee">https://github.com/xinran-lee</a><br>小破站：<a href="https://space.bilibili.com/391877345?spm_id_from=333.1007.0.0">https://space.bilibili.com/391877345?spm_id_from=333.1007.0.0</a></p><pre class="line-numbers language-copy" data-language="copy"><code class="language-copy">print("Hello world!")<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日常 </tag>
+            
+            <tag> 生活 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
