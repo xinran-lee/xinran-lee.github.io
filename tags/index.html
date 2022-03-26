@@ -509,19 +509,19 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/%E6%97%A5%E5%B8%B8/" title="日常: 1">
+                <a href="/tags/%E8%84%9A%E6%9C%AC/" title="脚本: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="日常" style="background-color: #F9EBEA;">日常
+                            data-tagname="脚本" style="background-color: #F9EBEA;">脚本
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/%E7%94%9F%E6%B4%BB/" title="生活: 1">
+                <a href="/tags/%E6%97%A5%E5%B8%B8/" title="日常: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="生活" style="background-color: #F5EEF8;">生活
+                            data-tagname="日常" style="background-color: #F5EEF8;">日常
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -550,7 +550,7 @@
 <script type="text/javascript">
     
 
-    $('#tag-wordcloud').jQCloud([{"text":"日常","weight":1,"link":"/tags/日常/"},{"text":"生活","weight":1,"link":"/tags/生活/"}], {
+    $('#tag-wordcloud').jQCloud([{"text":"脚本","weight":1,"link":"/tags/脚本/"},{"text":"日常","weight":1,"link":"/tags/日常/"}], {
         autoResize: true
     });
 </script>
@@ -630,7 +630,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">146</span>
+                        class="white-color">875</span>
             
             
             
@@ -1010,6 +1010,20 @@ $(function () {
         daovoice('update');
     </script>
     
+
+    <!-- 弹出文字 -->
+
+    <script type="text/javascript">
+        // 只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write(
+                '<script type="text/javascript" src="/libs/others/popupText.js"><\/script>'
+            );
+        }
+    </script>
+
+
 
     <!--腾讯兔小巢-->
     

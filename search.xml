@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何获得稳定的访问量</title>
+      <link href="/2022/03/26/ru-he-huo-de-wen-ding-de-fang-wen-liang/"/>
+      <url>/2022/03/26/ru-he-huo-de-wen-ding-de-fang-wen-liang/</url>
+      
+        <content type="html"><![CDATA[<p>  因为本人的小站刚刚运行起来不久，知道的人非常非常的少，所以访问量真的是少的可怜，所以也就有了下边的故事。</p><p>##目的</p><p>###我要做什么</p><p>  有了前边所述的背景，我要做什么也就显而易见了，那就是为了获得稳定的访问量，让我的小站蓬荜生辉。</p><h3 id="我为什么要这么做"><a href="#我为什么要这么做" class="headerlink" title="我为什么要这么做"></a>我为什么要这么做</h3><p>  其实想要自己小站的访问量好看，真的非常简单，只需要去自己的网站后台修改一下数据就好了。这样虽然是最快的，但是缺少网站数据的真实性，不容易被人信服。那么为了保证其真实性，我就需要去向大家宣传，求得大家的访问。但是有道是“求人不如求己”，于是我决定自己不停的去访问，以保证数据的真实。<br>当然这肯定是不可能的，就算我啥事情都不干，它的次数也是非常非常可怜的，还会让我非常非常的累。有这种无聊的闲工夫，当然要去做更有意义的事情啦~~。</p><h3 id="那么我应该怎么做"><a href="#那么我应该怎么做" class="headerlink" title="那么我应该怎么做"></a>那么我应该怎么做</h3><p>  当然是写脚本让计算机自己去完成这种事情啦。都2022年了，作为一个成熟的计算机，他应该独立了，学会自己去处理事情了。</p><p>##过程</p><p>###我要做什么</p><p>  脚本的逻辑其实也是非常的简单，只要让计算机自己在固定的时间后去刷新网页就好了，非常的easy。</p><p>###粗暴上代码</p><pre class="line-numbers language-//" data-language="//"><code class="language-//">// @name         自动刷新然然的网站鸭啦啦啦// @namespace    https://xinran-lee.github.io/// @version      1.0// @description  每隔一段时间自动刷新页面，可自定义刷新间隔时间// @author        XinranLee// @include      https://xinran-lee.github.io/*// @match        https://xinran-lee.github.io/*// @grant        none// ==/UserScript==(function() {    'use strict';    var title, time;    config(ready);    // 配置    function config(callback) {        if (!sessionStorage.oixmRefreshTime) {            time = parseInt(prompt("请设置要自动刷新的间隔时间（秒）：", 60));            if (isNaN(time)) return;            sessionStorage.oixmRefreshTime = time;        } else {            time = parseInt(sessionStorage.oixmRefreshTime);        }        callback();    }    // Ready    function ready() {        title = document.title;        loop();    }    // 循环时间    function loop() {        document.title = "[" + formatTime(time) + "] " + title;        if (time === 0) {            location.reload();            return;        }        time--;        setTimeout(loop, 1000);    }    // 格式化时间    function formatTime(t) {        if (isNaN(t)) return "";        var s = "";        var h = parseInt(t / 3600);        s += (pad(h) + ":");        t -= (3600 * h);        var m = parseInt(t / 60);        s += (pad(m) + ":");        t -= (60 * m);        s += pad(t);        return s;    }    // 补零    function pad(n) {        return ("00" + n).slice(-2);    }})();<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>###怎么去用</p><p>  我是把脚本添加到了油猴插件的编译器里面，非常的实用而又方便。当然这个脚本具有很强的泛用性，你也可以用它来刷自己网站的访问量，非常具有实用意义，只需要修改脚本中的链接就好了。</p><p>##结果</p><p>结果当然是非常的成功啦，这样就使得我的访问数据非常的真实（手动狗头），还不用去麻烦自己的好朋友。</p><p>###演示图片</p><p><img src="https://github.com/xinran-lee/blog_file/blob/ID_PIC/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%E7%A8%B3%E5%AE%9A%E7%9A%84%E8%AE%BF%E9%97%AE%E9%87%8F1.png"><br><img src="https://github.com/xinran-lee/blog_file/blob/ID_PIC/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%E7%A8%B3%E5%AE%9A%E7%9A%84%E8%AE%BF%E9%97%AE%E9%87%8F2.png"><br><img src="https://github.com/xinran-lee/blog_file/blob/ID_PIC/%E5%A6%82%E4%BD%95%E8%8E%B7%E5%BE%97%E7%A8%B3%E5%AE%9A%E7%9A%84%E8%AE%BF%E9%97%AE%E9%87%8F3.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 脚本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/03/23/hello-world/"/>
       <url>/2022/03/23/hello-world/</url>
@@ -21,8 +46,6 @@
         <tags>
             
             <tag> 日常 </tag>
-            
-            <tag> 生活 </tag>
             
         </tags>
       
