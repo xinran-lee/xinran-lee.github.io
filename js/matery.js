@@ -57,7 +57,6 @@ $(function () {
         fixStyles();
     });
 
-
     /*黑夜模式提醒开启功能*/
     //黑夜模式提醒开启功能
     setTimeout(function () {
