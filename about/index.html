@@ -25,6 +25,7 @@
     <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
     <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/artitalk/artitalk.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
@@ -274,6 +275,17 @@
     
   </li>
   
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/artitalk" class="waves-effect waves-light">
+      
+      <i class="fas fa-heartbeat" style="zoom: 0.6;"></i>
+      
+      <span>朋友圈</span>
+    </a>
+    
+  </li>
+  
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
       <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
@@ -371,6 +383,17 @@
 			    <i class="fa-fw fas fa-address-book"></i>
 			
 			友情链接
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/artitalk" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-heartbeat"></i>
+			
+			朋友圈
 		</a>
           
         </li>
@@ -760,7 +783,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"日常","value":1},{"name":"blog","value":1},{"name":"脚本","value":1}],
+                data: [{"name":"blog","value":1},{"name":"脚本","value":1},{"name":"日常","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -784,7 +807,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["日常","blog","脚本"]
+                data: ["blog","脚本","日常"]
             }
         ],
         yAxis: [
@@ -915,12 +938,6 @@
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/%E6%97%A5%E5%B8%B8/">
-                <span class="chip center-align waves-effect waves-light chip-default">日常</span>
-            </a>
-            
-            
-            
             <a href="/tags/blog/">
                 <span class="chip center-align waves-effect waves-light chip-default">blog</span>
             </a>
@@ -929,6 +946,12 @@
             
             <a href="/tags/%E8%84%9A%E6%9C%AC/">
                 <span class="chip center-align waves-effect waves-light chip-default">脚本</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E6%97%A5%E5%B8%B8/">
+                <span class="chip center-align waves-effect waves-light chip-default">日常</span>
             </a>
             
             
@@ -1339,6 +1362,7 @@ $(function () {
     <div id="stars2"></div>
     <div id="stars3"></div>  
   </div>
+    
 
     
 <script>

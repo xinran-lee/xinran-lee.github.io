@@ -67,7 +67,6 @@ $(function () {
     }, 2000)
     /*黑夜模式提醒开启功能*/
 
-
     /*初始化瀑布流布局*/
     $('#articles').masonry({
         itemSelector: '.article'
