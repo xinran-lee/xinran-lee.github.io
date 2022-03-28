@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何重装Solidworks</title>
+      <link href="/2022/03/28/ru-he-chong-zhuang-solidworks/"/>
+      <url>/2022/03/28/ru-he-chong-zhuang-solidworks/</url>
+      
+        <content type="html"><![CDATA[<p>今天有个关系非常非常好的学妹约了我帮忙重装Solidworks这个难搞的大家伙，因为对自己只有4成不到的成功把握，所以提前做了一下功课。</p><h2 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h2><p>机械专业的同学都知道，这个软件的功能非常非常的强大。<br>（下面无脑粘一下）<br>SolidWorks软件是世界上第一个基于Windows开发的三维CAD系统，由于技术创新符合CAD技术的发展潮流和趋势，SolidWorks公司于两年间成为CAD/CAM产业中获利最高的公司。良好的财务状况和用户支持使得SolidWorks每年都有数十乃至数百项的技术创新，公司也获得了很多荣誉。该系统在1995-1999年获得全球微机平台CAD系统评比第一名；从1995年，已经累计获得十七项国际大奖，其中仅从1999年起，美国权威的CAD专业杂志CADENCE连续4年授予SolidWorks最佳编辑奖，以表彰SolidWorks的创新、活力和简明。至此，SolidWorks所遵循的易用、稳定和创新三大原则得到了全面的落实和证明，使用它，设计师大大缩短了设计时间，产品快速、高效地投向了市场。<br>由于SolidWorks出色的技术和市场表现，不仅成为CAD行业的一颗耀眼的明星，也成为华尔街青睐的对象。终于在1997年由法国达索公司以三亿一千万美元的高额市值将SolidWorks全资并购。公司原来的风险投资商和股东，以一千三百万美元的风险投资，获得了高额的回报，创造了CAD行业的世界纪录。并购后的SolidWorks以原来的品牌和管理技术队伍继续独立运作，成为CAD行业一家高素质的专业化公司，SolidWorks三维机械设计软件也成为达索企业中最具竞争力的CAD产品。</p><p>正是由于其功能非常强大，也十分好用易学，所以也就造就了它庞大的体量——15G左右。文件分布也是非常非常多的。再加上这个软件十分矫情（有一点卸载不干净就会安装失败）。所以第一次安装失败，重装就会非常的麻烦。博主本人之前也踩过坑（泪目）。</p><h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>1、    通过WINDOWS系统安装程序卸载。（注意要勾选出所有的产品，需要在高级选项中勾选所以可以选择的内容，如注册表条目、数据文件和文件夹、下载文件和文件夹等等所有的东西）<br>2、    卸载全部SQL字样的软件<br>3、    删除所有带SW和SQL字样的文件，删不了的去任务管理器结束服务<br>4、    （通过Registry Finder软件）注册表查找器删除所有带SW的注册表文件（删除不了的勾选电脑权限删除:属性，安全，完全控制）</p><h3 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h3><p>这里引用一下其他博主的视频教程（侵权的话请作者联系我，我会及时删除）</p><p>2021版本卸载（之前自己误删了一些文件）</p><div style="position: relative;width: 100%;height: 0;padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=935763993&amp;bvid=BV1KT4y1274m&amp;cid=488187322&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div><p>SW2016安装失败卸载干净重装solidworks2020演示教程视频</p><div style="position: relative;width: 100%;height: 0;padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=252409060&amp;bvid=BV16Y411W7Vf&amp;cid=465296352&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe></div><h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>结果的话当然是非常成功啦，软件可以正常运行了。算是超额完成任务（比预期时间短很多），耶~成功 ღゝ◡╹)ノ♡</p><h2 id="非常满意-ღゝ◡╹-ノ♡"><a href="#非常满意-ღゝ◡╹-ノ♡" class="headerlink" title="非常满意 ღゝ◡╹)ノ♡"></a>非常满意 ღゝ◡╹)ノ♡</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在个人博客中插入视频</title>
       <link href="/2022/03/27/zai-ge-ren-bo-ke-zhong-cha-ru-shi-pin/"/>
       <url>/2022/03/27/zai-ge-ren-bo-ke-zhong-cha-ru-shi-pin/</url>
